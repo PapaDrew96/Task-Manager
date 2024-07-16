@@ -1,0 +1,175 @@
+.task-container {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .task-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-list li.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .task-list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-buttons {
+    display: flex;
+  }
+
+  /* Custom styles for react-time-picker component */
+.react-time-picker {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.react-time-picker__wrapper {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-time-picker__inputGroup {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.react-time-picker__inputGroup__input {
+  width: 50px;
+  height: 40px;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.react-time-picker__inputGroup__leadingZero {
+  font-size: 18px;
+}
+
+.react-time-picker__inputGroup__divider {
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.react-time-picker__clock {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.react-time-picker__clock button {
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.react-time-picker__clock button.react-time-picker__clock__time {
+  font-size: 18px;
+}
+
+.react-time-picker__clock button:hover {
+  background-color: #ddd;
+}
+
+/* Additional styles for the reminder popup */
+.reminder-popup {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reminder-popup h3 {
+  margin-top: 0;
+}
+
+.reminder-popup .custom-time-picker {
+  margin-bottom: 20px;
+}
+
+.reminder-popup button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.reminder-popup button:hover {
+  background-color: #0056b3;
+}
+
+.react-time-picker__inputGroup__hour {
+
+  width: 5rem;
+}
+
+
